@@ -77,15 +77,18 @@ jobs:
        mkdir openwrt-packages
        cd openwrt-packages
        git clone https://github.com/0saga0/luci-theme-atmaterial
-       #git clone https://github.com/0saga0/luci-app-koolproxyR
-       #git clone https://github.com/0saga0/luci-theme-rosy
-       #git clone https://github.com/0saga0/luci-app-kcptun
+       git clone https://github.com/0saga0/luci-app-koolproxyR
+       git clone https://github.com/0saga0/luci-theme-rosy
+       git clone https://github.com/0saga0/luci-app-kcptun
        git clone https://github.com/0saga0/luci-app-clash
+       git clone https://github.com/kenzok8/openwrt-packages/luci-app-smartdns
+       git clone https://github.com/kenzok8/openwrt-packages/smartdns
+       cp cangls /etc/config
        #cd luci-app-clash
        #git checkout -b openwrt-use01-ok origin/openwrt-use01-ok
        #cd ../
        #git clone https://github.com/0saga0/luci-app-shadowsocks
-       git clone https://github.com/0saga0/OpenClash.git
+       git clone https://github.com/kenzok8/openwrt-packages/luci-app-openclash
        cp -rfv   OpenClash/luci-app-openclash  ./
        rm -rfv   OpenClash
 
