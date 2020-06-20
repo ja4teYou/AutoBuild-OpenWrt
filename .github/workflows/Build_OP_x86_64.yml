@@ -61,7 +61,7 @@ jobs:
 
     - name: Clone source code
       env: 
-        REPO_URL: https://github.com/0saga0/lede
+        REPO_URL: https://github.com/coolsnowwolf/lede
         REPO_BRANCH: master
       run: |
        git clone --depth 1 $REPO_URL -b $REPO_BRANCH openwrt
@@ -80,6 +80,7 @@ jobs:
        #git clone https://github.com/0saga0/luci-app-koolproxyR
        #git clone https://github.com/0saga0/luci-theme-rosy
        #git clone https://github.com/0saga0/luci-app-kcptun
+       git clone https://github.com/kenzok8/openwrt-packages/tree/master/luci-app-smartdns
        git clone https://github.com/0saga0/luci-app-clash
        #cd luci-app-clash
        #git checkout -b openwrt-use01-ok origin/openwrt-use01-ok
