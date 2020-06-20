@@ -80,7 +80,6 @@ jobs:
        #git clone https://github.com/0saga0/luci-app-koolproxyR
        #git clone https://github.com/0saga0/luci-theme-rosy
        #git clone https://github.com/0saga0/luci-app-kcptun
-       git clone https://github.com/kenzok8/openwrt-packages/tree/master/luci-app-smartdns
        git clone https://github.com/0saga0/luci-app-clash
        #cd luci-app-clash
        #git checkout -b openwrt-use01-ok origin/openwrt-use01-ok
